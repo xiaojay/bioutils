@@ -14,4 +14,3 @@ for gb in SeqIO.parse(fn, 'genbank'):
 
 output_fn = fn + '.cds.fasta'
 SeqIO.write(cds, output_fn, "fasta")
-
